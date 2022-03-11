@@ -5,20 +5,24 @@ import java.util.Scanner;
 public class JetsApplication {
 
 	public static void main(String[] args) {
+		
+		JetsApplication jetsApp = new JetsApplication();
+		
 		Scanner sc = new Scanner(System.in);
 		int userImput = 9;
 		
 		do {
-			printMenu();
+			jetsApp.printMenu();
 			
 			userImput = sc.nextInt();
 			
-			toggleMenu(userImput);
+			jetsApp.toggleMenu(userImput);
 		} while (userImput != 9);
 
+		sc.close();
 	}
 
-	public static void toggleMenu(int userImput) {
+	private void toggleMenu(int userImput) {
 		
 //		Try Catch
 //		try {
@@ -64,7 +68,7 @@ public class JetsApplication {
 			
 	}
 
-	public static void printMenu() {
+	private void printMenu() {
 		System.out.println("Choose an Option");
 		System.out.println("");
 		System.out.println("1. List Fleet");
