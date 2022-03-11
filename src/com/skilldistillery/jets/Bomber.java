@@ -1,10 +1,16 @@
 package com.skilldistillery.jets;
 
-public class Bomber extends Jet implements Fighter{
+public class Bomber extends Jet implements Fighter, Cargo{
 
 	@Override
 	public void shootMoveCommunicate() {
-		// TODO Auto-generated method stub
+		System.out.println("Standing by for sortie");
+		
+	}
+
+	@Override
+	public void loadCargo() {
+		System.out.println("All munitions are prepped and loaded");
 		
 	}
 

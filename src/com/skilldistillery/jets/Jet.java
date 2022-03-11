@@ -84,20 +84,20 @@ public abstract class Jet {
 	}
 
 	//toString
-	@Override
-	public String toString() {
-		StringBuilder builder = new StringBuilder();
-		builder.append("Jet [model=");
-		builder.append(model);
-		builder.append(", speed=");
-		builder.append(speed);
-		builder.append(", range=");
-		builder.append(range);
-		builder.append(", price=");
-		builder.append(price);
-		builder.append("]");
-		return builder.toString();
-	}
+//	@Override
+//	public String toString() {
+//		StringBuilder builder = new StringBuilder();
+//		builder.append("Jet [model=");
+//		builder.append(model);
+//		builder.append(", speed=");
+//		builder.append(speed);
+//		builder.append(", range=");
+//		builder.append(range);
+//		builder.append(", price=");
+//		builder.append(price);
+//		builder.append("]");
+//		return builder.toString();
+//	}
 	
 	
 
