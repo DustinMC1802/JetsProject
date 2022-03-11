@@ -4,7 +4,7 @@ public class DogFighter extends Jet implements Fighter{
 
 	@Override
 	public void shootMoveCommunicate() {
-		// TODO Auto-generated method stub
+		System.out.println("Standing by for sortie");
 		
 	}
 
